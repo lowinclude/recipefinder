@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поиск рецептов</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Поиск ебаных рецептов</h1>
+    <form id="recipeForm">
+      <input type="text" id="finalDish" name="finalDish" placeholder="Введите название финального блюда">
+      <input type="button" value="Показать рецепты" onclick="getRecipes()">
+    </form>
+    <div id="result" class="result"></div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
