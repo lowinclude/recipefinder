@@ -7,14 +7,16 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Поиск ебаных рецептов</h1>
-    <form id="recipeForm">
-      <input type="text" id="finalDish" name="finalDish" placeholder="Введите название финального блюда">
-      <input type="button" value="Показать рецепты" onclick="getRecipes()">
-    </form>
-    <div id="result" class="result"></div>
-  </div>
+    <div class="container">
+        <h1>Поиск ебаных рецептов</h1>
+        <form id="recipeForm">
+          <input type="text" id="finalDish" name="finalDish" placeholder="Введите название финального блюда">
+          <input type="button" value="Показать рецепты" onclick="getRecipes()">
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <div id="leftContainer" class="image-container"></div>
+    <div id="rightContainer" class="image-container"></div>
   <script src="scripts.js"></script>
 </body>
 </html>
