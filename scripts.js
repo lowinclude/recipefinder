@@ -81,7 +81,6 @@ const recipesData = {
       "ingredients": [
         "Картофельное пюре",
         "Рыбная котлета",
-        "-"
       ],
       "imageUrl": '8113c7b5-fbd7-4b0f-941f-5fd9d591e38d'
     },
@@ -144,7 +143,6 @@ const recipesData = {
       "ingredients": [
         "Рыбная котлета",
         "Вареный рис",
-        "-"
       ],
       "imageUrl": 'df62235c-9cd4-45b9-9700-8f6bd14c9c3e'
     },
@@ -152,7 +150,6 @@ const recipesData = {
       "ingredients": [
         "Мясная котлета",
         "Вареный рис",
-        "-"
       ],
       "imageUrl": '0d5e9d9c-0875-4987-9b56-294f146fd699'
     },
@@ -703,12 +700,17 @@ const recipesData = {
       "imageUrl": '4be78d43-9651-4fce-ad24-7c1540abbbbb'
     }
   }
-  function getRecipes() {
+
+function getRecipes() {
     const finalDish = document.getElementById('finalDish').value.trim();
     const resultDiv = document.getElementById('result');
+    const suggestionsList = document.getElementById('suggestionsList');
 
     if (finalDish === '') {
-        resultDiv.innerHTML = '<p>Пожалуйста, введите название финального блюда.</p>';
+        resultDiv.innerHTML = '<p>Пожалуйста, введите название конечного блюда.</p>';
+        suggestionsList.innerHTML = '';
+        suggestionsList.classList.remove('show');
+        adjustContainerHeight();
         return;
     }
 
@@ -728,6 +730,9 @@ const recipesData = {
 
     if (recipesToShow.size === 0) {
         resultDiv.innerHTML = '<p>Рецепты не найдены.</p>';
+        suggestionsList.innerHTML = '';
+        suggestionsList.classList.remove('show');
+        adjustContainerHeight();
         return;
     }
 
@@ -737,6 +742,10 @@ const recipesData = {
             <span>${recipesData[name].ingredients.join(', ')}</span>
         </div>`
     ).join('');
+
+    suggestionsList.innerHTML = '';
+    suggestionsList.classList.remove('show');
+    adjustContainerHeight();
 }
 
 function createImageButtons() {
@@ -789,6 +798,59 @@ function createImageButtons() {
         rightContainer.appendChild(wrapper);
     });
 }
+
+function showSuggestions() {
+    const input = document.getElementById('finalDish').value.trim().toLowerCase();
+    const suggestionsList = document.getElementById('suggestionsList');
+
+    if (input === '') {
+        suggestionsList.innerHTML = '';
+        suggestionsList.classList.remove('show');
+        adjustContainerHeight();
+        return;
+    }
+
+    const suggestions = Object.keys(recipesData).filter(name => name.toLowerCase().includes(input));
+    
+    if (suggestions.length === 0) {
+        suggestionsList.innerHTML = '';
+        suggestionsList.classList.remove('show');
+    } else {
+        suggestionsList.innerHTML = suggestions.map(name => 
+            `<li onclick="selectSuggestion('${name}')">${name}</li>`
+        ).join('');
+        suggestionsList.classList.add('show');
+    }
+
+    adjustContainerHeight();
+}
+
+function selectSuggestion(name) {
+    document.getElementById('finalDish').value = name;
+    document.getElementById('suggestionsList').innerHTML = '';
+    document.getElementById('suggestionsList').classList.remove('show');
+    adjustContainerHeight();
+    getRecipes();
+}
+
+function adjustContainerHeight() {
+    const suggestionsList = document.getElementById('suggestionsList');
+    const mainContainer = document.getElementById('mainContainer');
+    const resultDiv = document.getElementById('result');
+
+    if (suggestionsList.classList.contains('show')) {
+        mainContainer.style.height = `${suggestionsList.offsetHeight + 150}px`;
+    } else if (resultDiv.childElementCount > 0) {
+        mainContainer.style.height = 'auto';
+    } else {
+        mainContainer.style.height = 'auto';
+    }
+}
+
+document.getElementById('finalDish').addEventListener('input', function() {
+    document.getElementById('result').innerHTML = '';
+    showSuggestions();
+});
 
 window.onload = createImageButtons;
 window.onresize = createImageButtons;

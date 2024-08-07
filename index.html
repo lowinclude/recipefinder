@@ -7,10 +7,11 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Поиск ебаных рецептов</h1>
-        <form id="recipeForm">
-          <input type="text" id="finalDish" name="finalDish" placeholder="Введите название финального блюда">
+    <div class="container" id="mainContainer">
+        <h1>Поиск рецептов</h1>
+        <form id="recipeForm" autocomplete="off">
+          <input type="text" id="finalDish" name="finalDish" placeholder="Поиск блюда" oninput="showSuggestions()">
+          <ul id="suggestionsList"></ul>
           <input type="button" value="Показать рецепты" onclick="getRecipes()">
         </form>
         <div id="result" class="result"></div>
