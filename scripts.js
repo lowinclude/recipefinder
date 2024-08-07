@@ -98,7 +98,8 @@ const recipesData = {
         "Молоко",
         "Венчик"
       ],
-      "imageUrl": '58d4d665-9ecd-401b-bfdb-ccfaa9b6e314'
+      "imageUrl": '58d4d665-9ecd-401b-bfdb-ccfaa9b6e314',
+      "exclude": true
     },
     "Картофельное пюре": {
       "ingredients": [
@@ -137,7 +138,8 @@ const recipesData = {
         "Картофельное пюре",
         "Рыбная котлета",
       ],
-      "imageUrl": '8113c7b5-fbd7-4b0f-941f-5fd9d591e38d'
+      "imageUrl": '8113c7b5-fbd7-4b0f-941f-5fd9d591e38d',
+      "exclude": true
     },
     "Рыбная котлета": {
       "ingredients": [
@@ -145,14 +147,16 @@ const recipesData = {
         "Масло",
         "Огонь"
       ],
-      "imageUrl": '3467930c-f851-480f-a786-23e0491cb56c'
+      "imageUrl": '3467930c-f851-480f-a786-23e0491cb56c',
+      "exclude": true
     },
     "Рыбный фарш": {
       "ingredients": [
-        "Любая рыба*",
+        "Любая рыба",
         "Нож"
       ],
-      "imageUrl": '1a144dbf-aab6-4422-9115-e13fc2c2db5f'
+      "imageUrl": '1a144dbf-aab6-4422-9115-e13fc2c2db5f',
+      "exclude": true
     },
     "Тесто": {
       "ingredients": [
@@ -161,7 +165,8 @@ const recipesData = {
         "Яйцо",
         "Венчик"
       ],
-      "imageUrl": '2ab3ed6e-3bb7-4360-b507-163e682a391c'
+      "imageUrl": '2ab3ed6e-3bb7-4360-b507-163e682a391c',
+      "exclude": true
     },
     "Сухая рыбная котлета": {
       "ingredients": [
@@ -169,7 +174,8 @@ const recipesData = {
         "Огонь"
       ],
       "imageUrl": '16d70273-67d5-46de-9df5-9440ab649a34',
-      "resizable": '35px'
+      "resizable": '35px',
+      "exclude": true
     },
     "Пельмени": {
       "ingredients": [
@@ -201,7 +207,8 @@ const recipesData = {
         "Рыбная котлета",
         "Вареный рис",
       ],
-      "imageUrl": 'df62235c-9cd4-45b9-9700-8f6bd14c9c3e'
+      "imageUrl": 'df62235c-9cd4-45b9-9700-8f6bd14c9c3e',
+      "exclude": true
     },
     "Котлета с рисом": {
       "ingredients": [
@@ -217,7 +224,8 @@ const recipesData = {
         "Нож"
       ],
       "imageUrl": '71b09697-d1bf-4962-bc92-1a8da0f2b784',
-      "resizable": '25px'
+      "resizable": '25px',
+      "exclude": true
     },
     "Ролл с тунцом": {
       "ingredients": [
@@ -226,7 +234,8 @@ const recipesData = {
         "Нож"
       ],
       "imageUrl": '755e52bd-91d7-403b-b83f-d3c6779118fb',
-      "resizable": '25px'
+      "resizable": '25px',
+      "exclude": true
     },
     "Овощной ролл": {
       "ingredients": [
@@ -243,7 +252,8 @@ const recipesData = {
         "Вареный рис",
         "Огонь"
       ],
-      "imageUrl": 'b4d605c0-1eda-406c-b1b0-cc12a5b12fed'
+      "imageUrl": 'b4d605c0-1eda-406c-b1b0-cc12a5b12fed',
+      "exclude": true
     },
     "Рыба с овощами": {
       "ingredients": [
@@ -251,7 +261,8 @@ const recipesData = {
         "Овощи",
         "Огонь"
       ],
-      "imageUrl": 'a6d6bb91-eb53-41db-8080-445de05a2388'
+      "imageUrl": 'a6d6bb91-eb53-41db-8080-445de05a2388',
+      "exclude": true
     },
     "Мясо с овощами": {
       "ingredients": [
@@ -403,7 +414,8 @@ const recipesData = {
         "Масло",
         "Огонь"
       ],
-      "imageUrl": 'a6d6bb91-eb53-41db-8080-445de05a2388'
+      "imageUrl": 'a6d6bb91-eb53-41db-8080-445de05a2388',
+      "exclude": true
     },
     "Сендвич с сыром": {
       "ingredients": [
@@ -462,7 +474,8 @@ const recipesData = {
         "Рыбная котлета",
       ],
       "imageUrl": '8113c7b5-fbd7-4b0f-941f-5fd9d591e38d',
-      "resizable": '35px'
+      "resizable": '35px',
+      "exclude": true
     },
     "Паста Болоньезе": {
       "ingredients": [
@@ -581,21 +594,24 @@ const recipesData = {
         "Сахар",
         "Огонь"
       ],
-      "imageUrl": 'db3c59b3-e1c7-4acc-9c59-aa978d197113'
+      "imageUrl": 'db3c59b3-e1c7-4acc-9c59-aa978d197113',
+      "exclude": true
     },
     "Рыба с фруктовым соусом и рисом": {
       "ingredients": [
         "Рыба с фруктовым соусом",
         "Вареный рис",
       ],
-      "imageUrl": null
+      "imageUrl": null,
+      "exclude": true
     },
     "Рыба с фруктовым соусом и пюре": {
       "ingredients": [
         "Рыба с фруктовым соусом",
         "Картофельное пюре",
       ],
-      "imageUrl": null
+      "imageUrl": null,
+      "exclude": true
     },
     "Лазанья": {
       "ingredients": [
@@ -636,7 +652,8 @@ const recipesData = {
         "Овощи",
         "Огонь"
       ],
-      "imageUrl": 'd802388b-4477-49fd-9e41-e37f4f87216b'
+      "imageUrl": 'd802388b-4477-49fd-9e41-e37f4f87216b',
+      "exclude": true
     },
     "Буррито": {
       "ingredients": [
@@ -692,25 +709,28 @@ const recipesData = {
         "Фугу",
         "Нож"
       ],
-      "imageUrl": 'c0f90303-d329-4d8d-9ac4-972eda8ba810'
+      "imageUrl": 'c0f90303-d329-4d8d-9ac4-972eda8ba810',
+      "exclude": true
     },
     "Сашими из лосося": {
       "ingredients": [
         "Лосось",
         "Нож"
       ],
-      "imageUrl": '17ec747f-5828-47ce-80ca-35d9d3a6e057'
+      "imageUrl": '17ec747f-5828-47ce-80ca-35d9d3a6e057',
+      "exclude": true
     },
     "Сашими из тунца": {
       "ingredients": [
         "Тунец",
         "Нож"
       ],
-      "imageUrl": '4be78d43-9651-4fce-ad24-7c1540abbbbb'
+      "imageUrl": '4be78d43-9651-4fce-ad24-7c1540abbbbb',
+      "exclude": true
     }
   }
 
-function getRecipes() {
+  function getRecipes() {
     const finalDish = document.getElementById('finalDish').value.trim();
     const resultDiv = document.getElementById('result');
     const suggestionsList = document.getElementById('suggestionsList');
@@ -760,15 +780,19 @@ function getRecipes() {
 function createImageButtons() {
     const leftContainer = document.getElementById('leftContainer');
     const rightContainer = document.getElementById('rightContainer');
+    const excludeEvent = document.getElementById('excludeEventCheckbox').checked;
 
     leftContainer.innerHTML = '';
     rightContainer.innerHTML = '';
 
-    const imageUrls = Object.entries(recipesData).map(([name, recipe]) => ({
+    const imageUrls = Object.entries(recipesData).filter(([name, recipe]) => 
+        !excludeEvent || !recipe.exclude
+    ).map(([name, recipe]) => ({
         name,
         url: recipe.imageUrl || 'missing',
-        resizable: recipe.resizable || false  // Проверка на наличие параметра resizable
+        resizable: recipe.resizable || false
     }));
+
     const halfLength = Math.ceil(imageUrls.length / 2);
 
     const leftImages = imageUrls.slice(0, halfLength);

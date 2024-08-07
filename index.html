@@ -19,14 +19,18 @@
     <div class="container" id="mainContainer">
         <h1>Поиск рецептов</h1>
         <form id="recipeForm" autocomplete="off">
-          <input type="text" id="finalDish" name="finalDish" placeholder="Поиск блюда" oninput="showSuggestions()">
-          <ul id="suggestionsList"></ul>
-          <input type="button" value="Показать рецепты" onclick="getRecipes()">
+            <input type="text" id="finalDish" name="finalDish" placeholder="Поиск блюда" oninput="showSuggestions()">
+            <label id="excludeLabel">
+                <input type="checkbox" id="excludeEventCheckbox" onclick="createImageButtons()">
+                <span>Показать только ивентовые</span>
+            </label>
+            <ul id="suggestionsList"></ul>
+            <input type="button" value="Показать рецепты" onclick="getRecipes()">
         </form>
         <div id="result" class="result"></div>
     </div>
     <div id="leftContainer" class="image-container"></div>
     <div id="rightContainer" class="image-container"></div>
-  <script src="scripts.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
