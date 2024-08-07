@@ -13,6 +13,45 @@ const recipesData = {
       ],
       "imageUrl": '3587a0bc-bd66-4397-842a-7c284d36368f'
     },
+    "Яблоко в карамели": {
+        "ingredients": [
+          "Карамель",
+          "Фрукты",
+        ],
+        "imageUrl": '3d8e1265-eb6f-4123-9182-aa997cda93aa'
+      },
+    "Мороженое": {
+        "ingredients": [
+          "Яйцо",
+          "Сахар",
+          "Молоко",
+          "Лёд",
+          "Венчик"
+        ],
+        "imageUrl": '8e95c6f7-a155-4433-bea1-01921e2f22ab'
+      },
+      "Карамельное мороженое": {
+        "ingredients": [
+          "Карамель",
+          "Мороженое",
+        ],
+        "imageUrl": '3d3003db-0d5f-40bb-bf04-19cc35c7ce8f'
+      },
+    "Молочный коктейль": {
+        "ingredients": [
+          "Мороженое",
+          "Молоко",
+          "Венчик"
+        ],
+        "imageUrl": '338af613-a02f-44b8-9399-4ad74a41c99d'
+      },
+      "Карамельн. молочный коктейль": {
+        "ingredients": [
+          "Карамель",
+          "Молочный коктейль",
+        ],
+        "imageUrl": '0ccbb4f3-d00f-4bcc-8871-03cd499d61cf'
+      },
     "Овощной смузи": {
       "ingredients": [
         "Овощи",
@@ -37,6 +76,22 @@ const recipesData = {
         "Венчик"
       ],
       "imageUrl": '8ecf486b-6896-4da6-8381-5b64da434fb1'
+    },
+    "Карамель": {
+        "ingredients": [
+          "Сахар",
+          "Огонь"
+        ],
+        "imageUrl": 'a9f38c89-5b3d-4b6f-b166-c591a99c05ae'
+      },
+    "Компот": {
+        "ingredients": [
+          "Сахар",
+          "Вода",
+          "Фрукты",
+          "Огонь"
+        ],
+        "imageUrl": '3257b3e9-e3dd-4895-8b89-fee586f73eea'
     },
     "Масло": {
       "ingredients": [
@@ -113,7 +168,8 @@ const recipesData = {
         "Рыбный фарш",
         "Огонь"
       ],
-      "imageUrl": '16d70273-67d5-46de-9df5-9440ab649a34'
+      "imageUrl": '16d70273-67d5-46de-9df5-9440ab649a34',
+      "resizable": '35px'
     },
     "Пельмени": {
       "ingredients": [
@@ -129,7 +185,8 @@ const recipesData = {
         "Мясной фарш",
         "Огонь"
       ],
-      "imageUrl": 'dc52a564-7724-4464-b537-24648718b59e'
+      "imageUrl": 'dc52a564-7724-4464-b537-24648718b59e',
+      "resizable": '35px'
     },
     "Вареный рис": {
       "ingredients": [
@@ -159,7 +216,8 @@ const recipesData = {
         "Вареный рис",
         "Нож"
       ],
-      "imageUrl": '71b09697-d1bf-4962-bc92-1a8da0f2b784'
+      "imageUrl": '71b09697-d1bf-4962-bc92-1a8da0f2b784',
+      "resizable": '25px'
     },
     "Ролл с тунцом": {
       "ingredients": [
@@ -167,7 +225,8 @@ const recipesData = {
         "Вареный рис",
         "Нож"
       ],
-      "imageUrl": '755e52bd-91d7-403b-b83f-d3c6779118fb'
+      "imageUrl": '755e52bd-91d7-403b-b83f-d3c6779118fb',
+      "resizable": '25px'
     },
     "Овощной ролл": {
       "ingredients": [
@@ -175,7 +234,8 @@ const recipesData = {
         "Вареный рис",
         "Нож"
       ],
-      "imageUrl": '7cd06f72-451b-4c3b-8ccd-658557bc862d'
+      "imageUrl": '7cd06f72-451b-4c3b-8ccd-658557bc862d',
+      "resizable": '25px'
     },
     "Рыба с рисом": {
       "ingredients": [
@@ -288,13 +348,6 @@ const recipesData = {
       ],
       "imageUrl": '82f1c256-30ae-497d-9473-d910972f1a72'
     },
-    "Карамель": {
-      "ingredients": [
-        "Сахар",
-        "Огонь"
-      ],
-      "imageUrl": 'a9f38c89-5b3d-4b6f-b166-c591a99c05ae'
-    },
     "Фруктовый чизкейк": {
       "ingredients": [
         "Чизкейк",
@@ -302,60 +355,12 @@ const recipesData = {
       ],
       "imageUrl": '4fc448dc-b750-4019-b33b-bf727a77eddf'
     },
-    "Компот": {
-      "ingredients": [
-        "Сахар",
-        "Вода",
-        "Фрукты",
-        "Огонь"
-      ],
-      "imageUrl": '3257b3e9-e3dd-4895-8b89-fee586f73eea'
-    },
-    "Яблоко в карамели": {
-      "ingredients": [
-        "Карамель",
-        "Фрукты",
-      ],
-      "imageUrl": '3d8e1265-eb6f-4123-9182-aa997cda93aa'
-    },
     "Фруктовый салат с карамелью": {
       "ingredients": [
         "Карамель",
         "Фруктовый салат",
       ],
       "imageUrl": '5506bc8a-e7f8-4641-8398-286114845917'
-    },
-    "Мороженое": {
-      "ingredients": [
-        "Яйцо",
-        "Сахар",
-        "Молоко",
-        "Лёд",
-        "Венчик"
-      ],
-      "imageUrl": '8e95c6f7-a155-4433-bea1-01921e2f22ab'
-    },
-    "Карамельное мороженое": {
-      "ingredients": [
-        "Карамель",
-        "Мороженое",
-      ],
-      "imageUrl": '3d3003db-0d5f-40bb-bf04-19cc35c7ce8f'
-    },
-    "Молочный коктейль": {
-      "ingredients": [
-        "Мороженое",
-        "Молоко",
-        "Венчик"
-      ],
-      "imageUrl": '338af613-a02f-44b8-9399-4ad74a41c99d'
-    },
-    "Карамельн. молочный коктейль": {
-      "ingredients": [
-        "Карамель",
-        "Молочный коктейль",
-      ],
-      "imageUrl": '0ccbb4f3-d00f-4bcc-8871-03cd499d61cf'
     },
     "Овощной суп": {
       "ingredients": [
@@ -425,7 +430,7 @@ const recipesData = {
         "Сыр",
         "Огонь"
       ],
-      "imageUrl": null
+      "imageUrl": 'pizza-1'
     },
     "Макароны": {
       "ingredients": [
@@ -456,7 +461,8 @@ const recipesData = {
         "Макароны",
         "Рыбная котлета",
       ],
-      "imageUrl": '8113c7b5-fbd7-4b0f-941f-5fd9d591e38d'
+      "imageUrl": '8113c7b5-fbd7-4b0f-941f-5fd9d591e38d',
+      "resizable": '35px'
     },
     "Паста Болоньезе": {
       "ingredients": [
@@ -502,7 +508,8 @@ const recipesData = {
         "Мясо",
         "Огонь"
       ],
-      "imageUrl": 'bdec7405-e3ad-450d-9324-858703a2c906'
+      "imageUrl": 'bdec7405-e3ad-450d-9324-858703a2c906',
+      "resizable": '25px'
     },
     "Стейк с рисом": {
       "ingredients": [
@@ -532,7 +539,7 @@ const recipesData = {
         "Овощи",
         "Хлеб",
       ],
-      "imageUrl": null
+      "imageUrl": 'burger'
     },
     "Крем-брюле": {
       "ingredients": [
@@ -541,7 +548,8 @@ const recipesData = {
         "Яйцо",
         "Огонь"
       ],
-      "imageUrl": 'd6c2cc0d-1a62-4dc1-8ecb-c348fa8e0b8a'
+      "imageUrl": 'd6c2cc0d-1a62-4dc1-8ecb-c348fa8e0b8a',
+      "resizable": '25px'
     },
     "Стейк с фруктовым соусом": {
       "ingredients": [
@@ -550,18 +558,18 @@ const recipesData = {
         "Сахар",
         "Огонь"
       ],
-      "imageUrl": '19341d8a-8886-424a-a5cb-7c5918b64e2c'
+      "imageUrl": '19341d8a-8886-424a-a5cb-7c5918b64e2c',
     },
     "Стейк с фруктовым соусом и рисом": {
       "ingredients": [
-        "Стейк с ф.с.",
+        "Стейк с фруктовым соусом",
         "Вареный рис",
       ],
       "imageUrl": null
     },
     "Стейк с фруктовым соусом и пюре": {
       "ingredients": [
-        "Стейк с ф.с.",
+        "Стейк с фруктовым соусом",
         "Картофельное пюре",
       ],
       "imageUrl": null
@@ -598,7 +606,8 @@ const recipesData = {
         "Мясной фарш",
         "Огонь"
       ],
-      "imageUrl": 'e0dd46fa-bc2a-4947-be1a-b7f03495c841'
+      "imageUrl": 'e0dd46fa-bc2a-4947-be1a-b7f03495c841',
+      "resizable": '35px'
     },
     "Ризотто": {
       "ingredients": [
@@ -757,20 +766,25 @@ function createImageButtons() {
 
     const imageUrls = Object.entries(recipesData).map(([name, recipe]) => ({
         name,
-        url: recipe.imageUrl || 'missing'
+        url: recipe.imageUrl || 'missing',
+        resizable: recipe.resizable || false  // Проверка на наличие параметра resizable
     }));
     const halfLength = Math.ceil(imageUrls.length / 2);
 
     const leftImages = imageUrls.slice(0, halfLength);
     const rightImages = imageUrls.slice(halfLength);
 
-    leftImages.forEach(({ name, url }) => {
+    leftImages.forEach(({ name, url, resizable }) => {
         const wrapper = document.createElement('div');
         wrapper.className = 'image-wrapper';
 
         const imgElement = document.createElement('img');
         imgElement.src = url === 'missing' ? 'images/missing.png' : `images/${url}.png`;
         imgElement.alt = name;
+
+        if (resizable) {
+            imgElement.style.height = resizable;
+        }
 
         imgElement.onclick = function() {
             document.getElementById('finalDish').value = name;
@@ -781,13 +795,17 @@ function createImageButtons() {
         leftContainer.appendChild(wrapper);
     });
 
-    rightImages.forEach(({ name, url }) => {
+    rightImages.forEach(({ name, url, resizable }) => {
         const wrapper = document.createElement('div');
         wrapper.className = 'image-wrapper';
 
         const imgElement = document.createElement('img');
         imgElement.src = url === 'missing' ? 'images/missing.png' : `images/${url}.png`;
         imgElement.alt = name;
+
+        if (resizable) {
+            imgElement.style.height = resizable;
+        }
 
         imgElement.onclick = function() {
             document.getElementById('finalDish').value = name;
