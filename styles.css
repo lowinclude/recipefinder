@@ -7,14 +7,14 @@ body {
     background-color: #171717;
     color: #1a3b5d;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
     position: relative;
-  }
+}
   
-  .container {
+.container {
     background-color: #0f0f0f;
     padding: 20px;
     width: 400px;
@@ -24,7 +24,7 @@ body {
     z-index: 10;
     position: relative;
     transition: height 0.3s ease;
-  }
+}
   
   h1 {
     margin-top: 0;
@@ -273,4 +273,14 @@ label#excludeLabel {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: grey;
+    font-size: 14px;
 }
