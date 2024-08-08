@@ -4,14 +4,16 @@ const recipesData = {
         "Фрукты",
         "Нож"
       ],
-      "imageUrl": '70135976-d662-46aa-90a9-7411b5eb74a3'
+      "imageUrl": '70135976-d662-46aa-90a9-7411b5eb74a3',
+      "exclude": true
     },
     "Овощной салат": {
       "ingredients": [
         "Овощи",
         "Нож"
       ],
-      "imageUrl": '3587a0bc-bd66-4397-842a-7c284d36368f'
+      "imageUrl": '3587a0bc-bd66-4397-842a-7c284d36368f',
+      "exclude": true
     },
     "Яблоко в карамели": {
         "ingredients": [
@@ -82,7 +84,8 @@ const recipesData = {
           "Сахар",
           "Огонь"
         ],
-        "imageUrl": 'a9f38c89-5b3d-4b6f-b166-c591a99c05ae'
+        "imageUrl": 'a9f38c89-5b3d-4b6f-b166-c591a99c05ae',
+        "exclude": true
       },
     "Компот": {
         "ingredients": [
@@ -111,27 +114,22 @@ const recipesData = {
       ],
       "imageUrl": 'b86ad9e6-d215-46be-a4ac-9bdeefba3fa0'
     },
-    "Мясная котлета с пюре": {
-      "ingredients": [
-        "Картофельное пюре",
-        "Мясная котлета",
-      ],
-      "imageUrl": 'eeab85b3-1f70-4de8-b48c-2a4afdd7c6fc'
-    },
     "Мясная котлета": {
       "ingredients": [
         "Мясной фарш",
         "Масло",
         "Огонь"
       ],
-      "imageUrl": 'a248c9c0-4a7b-4a2b-b265-9b59e7f846f6'
+      "imageUrl": 'a248c9c0-4a7b-4a2b-b265-9b59e7f846f6',
+      "exclude": true
     },
     "Мясной фарш": {
       "ingredients": [
         "Мясо",
         "Нож"
       ],
-      "imageUrl": 'ccb70107-75c6-46d9-baca-6858b941c3fa'
+      "imageUrl": 'ccb70107-75c6-46d9-baca-6858b941c3fa',
+      "exclude": true
     },
     "Рыбная котлета с пюре": {
       "ingredients": [
@@ -158,6 +156,15 @@ const recipesData = {
       "imageUrl": '1a144dbf-aab6-4422-9115-e13fc2c2db5f',
       "exclude": true
     },
+    "Поке": {
+        "ingredients": [
+          "Вареный рис",
+          "Сыр",
+          "Овощи",
+          "Лосось",
+        ],
+        "imageUrl": '30a486b1-5f6d-4253-851e-e923f558c8e5'
+      },
     "Тесто": {
       "ingredients": [
         "Мука",
@@ -177,22 +184,14 @@ const recipesData = {
       "resizable": '35px',
       "exclude": true
     },
-    "Пельмени": {
-      "ingredients": [
-        "Мясной фарш",
-        "Тесто",
-        "Вода",
-        "Огонь"
-      ],
-      "imageUrl": '8a710233-55d7-4e3d-bd7f-696ff90059d3'
-    },
     "Сухая мясная котлета": {
       "ingredients": [
         "Мясной фарш",
         "Огонь"
       ],
       "imageUrl": 'dc52a564-7724-4464-b537-24648718b59e',
-      "resizable": '35px'
+      "resizable": '35px',
+      "exclude": true
     },
     "Вареный рис": {
       "ingredients": [
@@ -200,7 +199,8 @@ const recipesData = {
         "Вода",
         "Огонь"
       ],
-      "imageUrl": '2c479b84-bf16-482a-9f6d-b5d8a61a4d86'
+      "imageUrl": '2c479b84-bf16-482a-9f6d-b5d8a61a4d86',
+      "exclude": true
     },
     "Рыбная котлета с рисом": {
       "ingredients": [
@@ -264,29 +264,12 @@ const recipesData = {
       "imageUrl": 'a6d6bb91-eb53-41db-8080-445de05a2388',
       "exclude": true
     },
-    "Мясо с овощами": {
-      "ingredients": [
-        "Мясо",
-        "Овощи",
-        "Огонь"
-      ],
-      "imageUrl": '076398f0-e078-46cd-874e-54ace4e6c0a4'
-    },
     "Яичница": {
       "ingredients": [
         "Яйцо",
         "Огонь"
       ],
       "imageUrl": '22af4a71-3ed0-47bd-9472-52d921649d47'
-    },
-    "Яичница с беконом": {
-      "ingredients": [
-        "Яйцо",
-        "Мясо",
-        "Масло",
-        "Огонь"
-      ],
-      "imageUrl": '46068a5a-81ed-481e-aa79-14a222ddc3d5'
     },
     "Омлет": {
       "ingredients": [
@@ -296,36 +279,6 @@ const recipesData = {
         "Огонь"
       ],
       "imageUrl": '77ce414b-52ed-4ae9-9c3c-2110dbb75a7a'
-    },
-    "Оладьи": {
-      "ingredients": [
-        "Яйцо",
-        "Молоко",
-        "Мука",
-        "Сахар",
-        "Венчик",
-        "Огонь"
-      ],
-      "imageUrl": '5d4ef361-c66f-496e-966e-6b7ea25ce8a7'
-    },
-    "Суфле": {
-      "ingredients": [
-        "Яйцо",
-        "Сахар",
-        "Венчик",
-        "Огонь"
-      ],
-      "imageUrl": '4698859d-6cdf-4b1d-9817-420149ac2d18'
-    },
-    "Овощной омлет": {
-      "ingredients": [
-        "Яйцо",
-        "Молоко",
-        "Овощи",
-        "Венчик",
-        "Огонь"
-      ],
-      "imageUrl": '7d1921d0-852b-46db-b179-31605690f719'
     },
     "Хлеб": {
       "ingredients": [
@@ -342,7 +295,8 @@ const recipesData = {
         "Венчик",
         "Огонь"
       ],
-      "imageUrl": '8711a06b-f06e-41d8-99e1-7fe5a7f339bb'
+      "imageUrl": '8711a06b-f06e-41d8-99e1-7fe5a7f339bb',
+      "exclude": true
     },
     "Сыр": {
       "ingredients": [
@@ -350,21 +304,8 @@ const recipesData = {
         "Венчик",
         "Огонь"
       ],
-      "imageUrl": '3dddaacd-a814-47a7-b5d3-34343ab4125d'
-    },
-    "Карамельный чизкейк": {
-      "ingredients": [
-        "Чизкейк",
-        "Карамель",
-      ],
-      "imageUrl": '82f1c256-30ae-497d-9473-d910972f1a72'
-    },
-    "Фруктовый чизкейк": {
-      "ingredients": [
-        "Чизкейк",
-        "Фрукты",
-      ],
-      "imageUrl": '4fc448dc-b750-4019-b33b-bf727a77eddf'
+      "imageUrl": '3dddaacd-a814-47a7-b5d3-34343ab4125d',
+      "exclude": true
     },
     "Фруктовый салат с карамелью": {
       "ingredients": [
@@ -373,39 +314,14 @@ const recipesData = {
       ],
       "imageUrl": '5506bc8a-e7f8-4641-8398-286114845917'
     },
-    "Овощной суп": {
-      "ingredients": [
-        "Бульон",
-        "Овощи",
-        "Огонь"
-      ],
-      "imageUrl": '6d43e716-ebf3-4745-a806-5eb3260dca88'
-    },
     "Бульон": {
       "ingredients": [
         "Мясо",
         "Вода",
         "Огонь"
       ],
-      "imageUrl": 'd8a53839-0dfe-4c9f-a380-7a358f6d0b5d'
-    },
-    "Борщ": {
-      "ingredients": [
-        "Бульон",
-        "Овощи",
-        "Мясо",
-        "Огонь"
-      ],
-      "imageUrl": 'c9391aac-d4f2-41dd-a31d-8d5e287d5074'
-    },
-    "Жар. мясо на масле с овощами": {
-      "ingredients": [
-        "Мясо",
-        "Овощи",
-        "Масло",
-        "Огонь"
-      ],
-      "imageUrl": 'a95e6902-40d9-4718-99dc-2df257c516a2'
+      "imageUrl": 'd8a53839-0dfe-4c9f-a380-7a358f6d0b5d',
+      "exclude": true
     },
     "Жар. рыба на масле с овощами": {
       "ingredients": [
@@ -417,15 +333,6 @@ const recipesData = {
       "imageUrl": 'a6d6bb91-eb53-41db-8080-445de05a2388',
       "exclude": true
     },
-    "Сендвич с сыром": {
-      "ingredients": [
-        "Сыр",
-        "Хлеб",
-        "Нож",
-        "Огонь"
-      ],
-      "imageUrl": '8d090f5f-d9b6-4563-a6c9-f973cef5085e'
-    },
     "Салат Капрезе": {
       "ingredients": [
         "Сыр",
@@ -433,16 +340,6 @@ const recipesData = {
         "Нож"
       ],
       "imageUrl": 'de6f0483-7e4b-4908-b3da-98b49401fe8e'
-    },
-    "Пицца": {
-      "ingredients": [
-        "Тесто",
-        "Овощи",
-        "Мясо",
-        "Сыр",
-        "Огонь"
-      ],
-      "imageUrl": 'pizza-1'
     },
     "Макароны": {
       "ingredients": [
@@ -453,76 +350,14 @@ const recipesData = {
       ],
       "imageUrl": '93481dda-8ca3-4bf4-add3-65e93d6a790b'
     },
-    "Макароны с сыром": {
-      "ingredients": [
-        "Макароны",
-        "Сыр",
-        "Огонь"
-      ],
-      "imageUrl": '08bdd5bb-2800-4831-b2b3-205e440c9ae9'
-    },
-    "Макароны с мясной котлетой": {
-      "ingredients": [
-        "Макароны",
-        "Мясная котлета",
-      ],
-      "imageUrl": '4142a1ba-e0fe-46c8-97d0-a153ac10028b'
-    },
-    "Макароны с рыбной котлетой": {
-      "ingredients": [
-        "Макароны",
-        "Рыбная котлета",
-      ],
-      "imageUrl": '8113c7b5-fbd7-4b0f-941f-5fd9d591e38d',
-      "resizable": '35px',
-      "exclude": true
-    },
-    "Паста Болоньезе": {
-      "ingredients": [
-        "Макароны",
-        "Сыр",
-        "Овощи",
-        "Мясной фарш",
-        "Огонь"
-      ],
-      "imageUrl": 'e6fa3196-7cad-433c-96e2-00e65022e8fd'
-    },
-    "Паста Карбонара": {
-      "ingredients": [
-        "Макароны",
-        "Сыр",
-        "Мясо",
-        "Яйцо",
-        "Огонь"
-      ],
-      "imageUrl": 'a0b9b5ea-0aac-45a3-9b6c-c6baae0b4dba'
-    },
-    "Рамен": {
-      "ingredients": [
-        "Макароны",
-        "Бульон",
-        "Мясо",
-        "Яйцо",
-        "Огонь"
-      ],
-      "imageUrl": '0e56700c-239c-4fca-bc94-e772fc0eb070'
-    },
-    "Рагу": {
-      "ingredients": [
-        "Овощи",
-        "Вода",
-        "Мясо",
-        "Огонь"
-      ],
-      "imageUrl": '11ab66c2-9fda-4da2-b666-a8a396fbf434'
-    },
     "Стейк": {
       "ingredients": [
         "Мясо",
         "Огонь"
       ],
       "imageUrl": 'bdec7405-e3ad-450d-9324-858703a2c906',
-      "resizable": '25px'
+      "resizable": '25px',
+      "exclude": true
     },
     "Стейк с рисом": {
       "ingredients": [
@@ -531,38 +366,6 @@ const recipesData = {
         "Огонь"
       ],
       "imageUrl": '88c92bff-1421-4a93-874a-7fea13971c0a'
-    },
-    "Стейк с салатом": {
-      "ingredients": [
-        "Стейк",
-        "Овощной салат",
-      ],
-      "imageUrl": '76ae0c13-cbc3-43b4-92ee-ab95b65b6c98'
-    },
-    "Стейк с макаронами": {
-      "ingredients": [
-        "Макароны",
-        "Стейк",
-      ],
-      "imageUrl": 'c9b8c133-a454-460e-bd3c-f0de87231575'
-    },
-    "Бургер": {
-      "ingredients": [
-        "Мясная котлета",
-        "Овощи",
-        "Хлеб",
-      ],
-      "imageUrl": 'burger'
-    },
-    "Крем-брюле": {
-      "ingredients": [
-        "Молоко",
-        "Сахар",
-        "Яйцо",
-        "Огонь"
-      ],
-      "imageUrl": 'd6c2cc0d-1a62-4dc1-8ecb-c348fa8e0b8a',
-      "resizable": '25px'
     },
     "Стейк с фруктовым соусом": {
       "ingredients": [
@@ -613,18 +416,14 @@ const recipesData = {
       "imageUrl": null,
       "exclude": true
     },
-    "Лазанья": {
-      "ingredients": [
-        "Молоко",
-        "Мука",
-        "Сыр",
-        "Овощи",
-        "Мясной фарш",
-        "Огонь"
-      ],
-      "imageUrl": 'e0dd46fa-bc2a-4947-be1a-b7f03495c841',
-      "resizable": '35px'
-    },
+    "Мясо с овощами": {
+        "ingredients": [
+          "Мясо",
+          "Овощи",
+          "Огонь"
+        ],
+        "imageUrl": '076398f0-e078-46cd-874e-54ace4e6c0a4'
+      },
     "Ризотто": {
       "ingredients": [
         "Бульон",
@@ -634,6 +433,15 @@ const recipesData = {
       ],
       "imageUrl": '4783f701-a858-4c8f-8208-99a8c5254f2a'
     },
+    "Жар. мясо на масле с овощами": {
+        "ingredients": [
+          "Мясо",
+          "Овощи",
+          "Масло",
+          "Огонь"
+        ],
+        "imageUrl": 'a95e6902-40d9-4718-99dc-2df257c516a2'
+      },
     "Тако с мясом": {
       "ingredients": [
         "Хлеб",
@@ -665,15 +473,6 @@ const recipesData = {
         "Огонь"
       ],
       "imageUrl": '4b788fde-bc98-4ebb-9e9a-2ef1a80804bb'
-    },
-    "Поке": {
-      "ingredients": [
-        "Вареный рис",
-        "Сыр",
-        "Овощи",
-        "Лосось",
-      ],
-      "imageUrl": '30a486b1-5f6d-4253-851e-e923f558c8e5'
     },
     "Мальма в сливочном соусе": {
       "ingredients": [
@@ -727,7 +526,219 @@ const recipesData = {
       ],
       "imageUrl": '4be78d43-9651-4fce-ad24-7c1540abbbbb',
       "exclude": true
-    }
+    },
+    "Суфле": {
+        "ingredients": [
+          "Яйцо",
+          "Сахар",
+          "Венчик",
+          "Огонь"
+        ],
+        "imageUrl": '4698859d-6cdf-4b1d-9817-420149ac2d18'
+    },
+    "Мясная котлета с пюре": {
+        "ingredients": [
+          "Картофельное пюре",
+          "Мясная котлета",
+        ],
+        "imageUrl": 'eeab85b3-1f70-4de8-b48c-2a4afdd7c6fc'
+      },
+    "Пельмени": {
+        "ingredients": [
+          "Мясной фарш",
+          "Тесто",
+          "Вода",
+          "Огонь"
+        ],
+        "imageUrl": '8a710233-55d7-4e3d-bd7f-696ff90059d3'
+      },
+    "Яичница с беконом": {
+        "ingredients": [
+          "Яйцо",
+          "Мясо",
+          "Масло",
+          "Огонь"
+        ],
+        "imageUrl": '46068a5a-81ed-481e-aa79-14a222ddc3d5'
+      },
+    "Оладьи": {
+        "ingredients": [
+          "Яйцо",
+          "Молоко",
+          "Мука",
+          "Сахар",
+          "Венчик",
+          "Огонь"
+        ],
+        "imageUrl": '5d4ef361-c66f-496e-966e-6b7ea25ce8a7'
+      },
+    "Овощной омлет": {
+        "ingredients": [
+          "Яйцо",
+          "Молоко",
+          "Овощи",
+          "Венчик",
+          "Огонь"
+        ],
+        "imageUrl": '7d1921d0-852b-46db-b179-31605690f719'
+      },
+    "Карамельный чизкейк": {
+        "ingredients": [
+          "Чизкейк",
+          "Карамель",
+        ],
+        "imageUrl": '82f1c256-30ae-497d-9473-d910972f1a72'
+      },
+    "Фруктовый чизкейк": {
+        "ingredients": [
+          "Чизкейк",
+          "Фрукты",
+        ],
+        "imageUrl": '4fc448dc-b750-4019-b33b-bf727a77eddf'
+      },
+    "Овощной суп": {
+        "ingredients": [
+          "Бульон",
+          "Овощи",
+          "Огонь"
+        ],
+        "imageUrl": '6d43e716-ebf3-4745-a806-5eb3260dca88'
+      },
+    "Борщ": {
+        "ingredients": [
+          "Бульон",
+          "Овощи",
+          "Мясо",
+          "Огонь"
+        ],
+        "imageUrl": 'c9391aac-d4f2-41dd-a31d-8d5e287d5074'
+      },
+    "Сендвич с сыром": {
+        "ingredients": [
+          "Сыр",
+          "Хлеб",
+          "Нож",
+          "Огонь"
+        ],
+        "imageUrl": '8d090f5f-d9b6-4563-a6c9-f973cef5085e'
+      },
+    "Пицца": {
+        "ingredients": [
+          "Тесто",
+          "Овощи",
+          "Мясо",
+          "Сыр",
+          "Огонь"
+        ],
+        "imageUrl": 'pizza-1'
+      },
+      "Макароны с сыром": {
+        "ingredients": [
+          "Макароны",
+          "Сыр",
+          "Огонь"
+        ],
+        "imageUrl": '08bdd5bb-2800-4831-b2b3-205e440c9ae9'
+      },
+      "Макароны с мясной котлетой": {
+        "ingredients": [
+          "Макароны",
+          "Мясная котлета",
+        ],
+        "imageUrl": '4142a1ba-e0fe-46c8-97d0-a153ac10028b'
+      },
+      "Макароны с рыбной котлетой": {
+        "ingredients": [
+          "Макароны",
+          "Рыбная котлета",
+        ],
+        "imageUrl": '8113c7b5-fbd7-4b0f-941f-5fd9d591e38d',
+        "resizable": '35px',
+        "exclude": true
+      },
+      "Паста Болоньезе": {
+        "ingredients": [
+          "Макароны",
+          "Сыр",
+          "Овощи",
+          "Мясной фарш",
+          "Огонь"
+        ],
+        "imageUrl": 'e6fa3196-7cad-433c-96e2-00e65022e8fd'
+      },
+      "Паста Карбонара": {
+        "ingredients": [
+          "Макароны",
+          "Сыр",
+          "Мясо",
+          "Яйцо",
+          "Огонь"
+        ],
+        "imageUrl": 'a0b9b5ea-0aac-45a3-9b6c-c6baae0b4dba'
+      },
+      "Рамен": {
+        "ingredients": [
+          "Макароны",
+          "Бульон",
+          "Мясо",
+          "Яйцо",
+          "Огонь"
+        ],
+        "imageUrl": '0e56700c-239c-4fca-bc94-e772fc0eb070'
+      },
+      "Рагу": {
+        "ingredients": [
+          "Овощи",
+          "Вода",
+          "Мясо",
+          "Огонь"
+        ],
+        "imageUrl": '11ab66c2-9fda-4da2-b666-a8a396fbf434'
+      },
+      "Стейк с салатом": {
+        "ingredients": [
+          "Стейк",
+          "Овощной салат",
+        ],
+        "imageUrl": '76ae0c13-cbc3-43b4-92ee-ab95b65b6c98'
+      },
+      "Бургер": {
+        "ingredients": [
+          "Мясная котлета",
+          "Овощи",
+          "Хлеб",
+        ],
+        "imageUrl": 'burger'
+      },
+      "Стейк с макаронами": {
+        "ingredients": [
+          "Макароны",
+          "Стейк",
+        ],
+        "imageUrl": 'c9b8c133-a454-460e-bd3c-f0de87231575'
+      },
+      "Крем-брюле": {
+        "ingredients": [
+          "Молоко",
+          "Сахар",
+          "Яйцо",
+          "Огонь"
+        ],
+        "imageUrl": 'd6c2cc0d-1a62-4dc1-8ecb-c348fa8e0b8a',
+        "resizable": '25px'
+      },
+      "Лазанья": {
+        "ingredients": [
+          "Молоко",
+          "Мука",
+          "Сыр",
+          "Овощи",
+          "Мясной фарш",
+          "Огонь"
+        ],
+        "imageUrl": 'e0dd46fa-bc2a-4947-be1a-b7f03495c841',
+        "resizable": '35px'
+      },
   }
 
   function getRecipes() {
@@ -888,6 +899,18 @@ function adjustContainerHeight() {
         mainContainer.style.height = 'auto';
     }
 }
+
+document.getElementById('finalDish').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        
+        const suggestionsList = document.getElementById('suggestionsList');
+        const firstSuggestion = suggestionsList.querySelector('li');
+        if (firstSuggestion) {
+            selectSuggestion(firstSuggestion.innerText);
+        }
+    }
+});
 
 document.getElementById('finalDish').addEventListener('input', function() {
     document.getElementById('result').innerHTML = '';
