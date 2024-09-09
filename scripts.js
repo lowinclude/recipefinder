@@ -381,14 +381,14 @@ const recipesData = {
         "Стейк с фруктовым соусом",
         "Вареный рис",
       ],
-      "imageUrl": null
+      "imageUrl": '19341d8a-8886-424a-a5cb-7c5918b64e2c'
     },
     "Стейк с фруктовым соусом и пюре": {
       "ingredients": [
         "Стейк с фруктовым соусом",
         "Картофельное пюре",
       ],
-      "imageUrl": null
+      "imageUrl": '19341d8a-8886-424a-a5cb-7c5918b64e2c'
     },
     "Рыба с фруктовым соусом": {
       "ingredients": [
@@ -405,7 +405,7 @@ const recipesData = {
         "Рыба с фруктовым соусом",
         "Вареный рис",
       ],
-      "imageUrl": null,
+      "imageUrl": 'db3c59b3-e1c7-4acc-9c59-aa978d197113',
       "exclude": true
     },
     "Рыба с фруктовым соусом и пюре": {
@@ -413,7 +413,7 @@ const recipesData = {
         "Рыба с фруктовым соусом",
         "Картофельное пюре",
       ],
-      "imageUrl": null,
+      "imageUrl": 'db3c59b3-e1c7-4acc-9c59-aa978d197113',
       "exclude": true
     },
     "Мясо с овощами": {
